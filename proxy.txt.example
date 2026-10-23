@@ -1,0 +1,9 @@
+# Optional proxy / alternate route list (one host:port per line)
+# Only use endpoints YOU control that forward to your lab CoD4x server.
+# Example local forwarders or VPN endpoints:
+#
+# 127.0.0.1:1080
+# 192.168.1.50:1080
+#
+# Note: plain HTTP proxies do NOT carry CoD4 UDP game traffic.
+# You need a UDP-capable forwarder or multiple local source IPs.
