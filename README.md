@@ -50,7 +50,7 @@ No third-party packages.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cod4x-fake-players.git
+git clone https://github.com/ar51kevinos/cod4x-fake-players.git
 cd cod4x-fake-players
 
 cp config.example.json config.json
