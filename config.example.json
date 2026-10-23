@@ -1,0 +1,27 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 28969
+  },
+  "clients": {
+    "count": 5,
+    "stagger_seconds": 1.5,
+    "session_time_seconds": 25,
+    "protocol": 6,
+    "xver": "21",
+    "name_prefix": "LoadBot"
+  },
+  "proxy": {
+    "enabled": false,
+    "file": "proxy.txt",
+    "note": "Optional. Different source IPs help avoid CoD4x same-IP Fake-Player-DoS protection when testing your own server. Only use proxies/routes you control toward your lab server."
+  },
+  "safety": {
+    "allow_only_private_hosts": true,
+    "allowed_hosts": ["127.0.0.1", "localhost", "::1"]
+  },
+  "logging": {
+    "file": "logs/fake_players.log",
+    "console": true
+  }
+}
